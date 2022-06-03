@@ -1,0 +1,62 @@
+body{
+    background-color: yellow;
+}
+
+header{
+max-width: 1200px;
+margin: 40px auto ;
+border: 1px saddlebrown;
+
+}
+
+.Grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 1200px ;
+    margin: 20px auto;
+    gap: 60px;
+
+}
+
+h1{
+    color: black;
+}
+
+p{
+    color: black;
+}
+
+img{
+    width:100%;
+}
+.Different-c{
+border: 1px solid blue;
+padding: 10px;
+margin: 2px;
+background-color: blue;
+}
+
+ .Iced-coffee{
+     border:1px solid red;
+     padding: 10px;
+     margin: 2px;
+     background-color: red;
+ }
+
+ .Cold-brew{
+    border:1px Solid green;
+    padding: 10px;
+    margin: 2px;
+    background-color: green;
+}
+
+.More-c{
+    border: 1px solid purple;
+    padding: 10px;
+    margin: 2px;
+    background-color: purple;
+}
+
+
+
+
